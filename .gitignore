@@ -1,0 +1,31 @@
+# Shopify theme files
+.DS_Store
+*.log
+node_modules/
+dist/
+build/
+*.zip
+
+# Shopify CLI theme config (auth/session info)
+.shopify/
+
+# Environment variables
+.env
+.env.*
+
+# OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VSCode settings
+.vscode/
+
+# Mac metadata
+__MACOSX/
+
+# Cache
+.cache/
+*.tmp
+*.swp
+*.swo
