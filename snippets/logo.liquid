@@ -1,0 +1,5 @@
+{% if settings.logo != blank %}
+<img src="{{ settings.logo | img_url: 'medium' }}" alt="{{ shop.name }}">
+{% else %}
+<span>{{ shop.name }}</span>
+{% endif %}

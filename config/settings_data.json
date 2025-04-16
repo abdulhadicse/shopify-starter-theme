@@ -1,0 +1,26 @@
+{
+    "current": "default",
+    "presets": {
+      "default": {
+        "name": "Default Theme",
+        "settings": {
+          "logo": ""
+        },
+        "blocks": {},
+        "sections": {
+          "header": {
+            "type": "header",
+            "settings": {
+              "logo": ""
+            }
+          },
+          "main": {
+            "type": "main",
+            "settings": {}
+          }
+        },
+        "order": ["header", "main"]
+      }
+    }
+  }
+  
